@@ -1100,7 +1100,7 @@ parentViewController:(UIViewController*)parentViewController
     if (self.processor.is2D) {
         UIColor* color = [UIColor colorWithRed:0.17 green:0.17 blue:0.17 alpha:RETICLE_ALPHA];
         CGContextSetStrokeColorWithColor(context, color.CGColor);
-        CGContextSetLineWidth(context, RETICLE_WIDTH*2);
+        CGContextSetLineWidth(context, RETICLE_WIDTH);
         CGContextStrokeRect(context,
                             CGRectMake(
                                        RETICLE_OFFSET,
